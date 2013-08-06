@@ -1,0 +1,11 @@
+{
+    "name": "flatiron-example"
+  , "version": "0.0.0"
+  , "dependencies": {
+        "flatiron": "0.3.8"
+      , "plates": "0.4.8"
+      , "resourceful": "0.3.3"
+      , "restful": "0.4.4"
+      , "union": "0.3.7"
+    }
+}

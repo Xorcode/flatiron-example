@@ -1,0 +1,13 @@
+{
+    "port": "8000"
+  , "restful": {
+        "strict": true
+      , "explore": true
+      , "prefix": "api"
+    }
+  , "resourceful": {
+        "engine": "couchdb"
+      , "uri": "couchdb://localhost:5984/<DATABASE>"
+      , "auth": "<USER>:<PASS>"
+    }
+}
