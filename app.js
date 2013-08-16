@@ -34,7 +34,8 @@ app.use(restful, app.config.get('restful') || {})
 app.start(app.config.get('port') || 4000, function (err) {
   if (err) {
     app.log.err(err)
-    throw err
+    console.trace()
+	process.exit(1)
   }
   var addr = app.server.address()
   app.log.info('Server started on http://' + addr.address + ':' + addr.port + ' in ' + env)
