@@ -1,6 +1,18 @@
 {
     "name": "flatiron-example"
   , "version": "0.0.0"
+  , "author": {
+        "name": "Xorcode, LLC"
+      , "email": "hello@xorcode.com"
+      , "url": "http://www.xorcode.com/"
+    }
+  , "homepage": "http://www.xorcode.com/"
+  , "repository": {
+        "type": "git"
+      , "url": "https://github.com/Xorcode/flatiron-example.git"
+    }
+  , "bugs": "https://github.com/Xorcode/flatiron-example/issues"
+  , "main": "./app.js"
   , "dependencies": {
         "flatiron": "0.3.8"
       , "plates": "0.4.8"
@@ -8,4 +20,9 @@
       , "restful": "0.4.4"
       , "union": "0.3.7"
     }
+  , "keywords": [
+        "flatiron"
+      , "example"
+      , "tutorial"
+    ]
 }
